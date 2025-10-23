@@ -9,7 +9,7 @@ Provides detailed analytics on student performance.
 - See the challenge attempts per challenge in a pie chart.
 - Table view of all submissions.
 
-![Lecturer Overview Dashboard](images/analytics.png)
+![Lecturer Overview Dashboard](images/analyticsTable.png)
 
 ## Table Details
 - The table contains each student enrolled in the module along with their submission analytics.

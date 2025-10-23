@@ -14,5 +14,4 @@ The Overview Dashboard provides a summary of the current week, published and dra
 2. Select a challenge from the drop-down at the bottom of the page.
 3. View the question description, starter code and testcases.
 
-### Screenshots
 ![Lecturer Overview Dashboard](images/overview2.png)
