@@ -1,0 +1,27 @@
+/* Normal page images (fit nicely in content) */
+.zoomable {
+    cursor: zoom-in;
+    max-width: 50%;      /* or whatever looks good in your layout */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Zoomed image */
+.zoomable.zoomed {
+    cursor: zoom-out;
+    max-width: 100%;
+    z-index: 101;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Overlay background */
+.image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    display: none;
+}

@@ -1,19 +1,15 @@
 # Student Modules
 
-## Navigation
-- [Overview Dashboard](./overview-dashboard)
-- [Analytics Dashboard](./analytics-dashboard)
-- [Coding Challenge](./coding-challenge)
-- [Profile Settings](./profile)
-- [Back to Guides](../index.md)
-- [Return to Home](../../index.md)
-
-## Overview
 Displays modules the student is enrolled in
 
-### Features
-- Access weekly challenge sets per module.
-- View module details and timelines such as the credits and coding language.
+## Accessing the page
 
-### Screenshots
-![Student Modules](modules.png)
+- Go to your name in the bottom left of the navigation bar.
+- Click on **Settings**.
+- Go to the **Modules** tab.
+
+## Features
+- View modules the student is enrolled in. 
+- This table shows details such as Module Name, Module Code, Credits, and Language coded in.
+
+![Student Modules](images/modules.png)

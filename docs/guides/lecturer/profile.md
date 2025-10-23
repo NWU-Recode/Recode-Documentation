@@ -1,26 +1,16 @@
 # Lecturer Profile
 
-## Navigation
-- [Overview Dashboard](./overview-dashboard)
-- [Analytics Dashboard](./analytics-dashboard)
-- [Uploads Dashboard](./uploads-dashboard)
-- [Modules](./modules)
-- [Back to Guides](../index.md)
-- [Return to Home](../../index.md)
+Manage lecturer account information.
 
-## Overview
-Manage lecturer account information and settings.
-
-### Features
+## Features
 - View and update personal details.
 
-### Edit Personal Information
-- Personlize your profile by selecting a picture and entering your full name.
-![Lecturer Profile](profile.png)
+## Edit Personal Information
 
-1. Edit your Email by typing in the field provided.
-2. Edit your Contact number by typing in the field provided.
-3. Add or edit your Bio by typing in the field provided.
-4. Click **Upload profile** to save your changes or **Reset Form** to revert changes.
+- Personalize your profile by selecting a profile picture and entering your name and personal details.
+- Click **Upload profile** to save your changes or **Reset Form** to revert changes.
 
-![Lecturer Profile](details.png)
+![Lecturer Profile](images/profile.png)
+
+
+

@@ -1,27 +1,18 @@
 # Lecturer Overview Dashboard
 
-## Navigation
-- [Analytics Dashboard](./analytics-dashboard)
-- [Uploads Dashboard](./uploads-dashboard)
-- [Modules](./modules)
-- [Profile](./profile)
-- [Back to Guides](../index.md)
-- [Return to Home](../../index.md)
-
-## Overview
 The Overview Dashboard provides a summary of the current week, published and draft challenge sets.
 
-### Key Features
-1. View **published** and **draft** challenge sets.
-2. Enter code for challenges
-3. Display test cases for selected challenge
+## Key Features
+- View **completed**, **active** and **not active** challenge completion rate.
+- View coding questions for a selected challenge.
+- View test cases for a selected challenge
 
-### Challenge Selection
-1. Lecturer navigates to overview.
-2. Select a challenge from the drop down to display.
-3. Description of challenge is given.
-4. Challenge code is displayed.
-5. Challenge testcases are displayed.
+![Lecturer Overview Dashboard](images/overview1.png)
+
+## View Challenge Details
+1. Navigate to the **Overview** tab.
+2. Select a challenge from the drop-down at the bottom of the page.
+3. View the question description, starter code and testcases.
 
 ### Screenshots
-![Lecturer Overview Dashboard](overview.png)
+![Lecturer Overview Dashboard](images/overview2.png)

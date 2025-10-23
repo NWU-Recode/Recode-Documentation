@@ -1,22 +1,19 @@
 # Lecturer Analytics Dashboard
 
-## Navigation
-- [Overview Dashboard](./overview-dashboard)
-- [Uploads Dashboard](./uploads-dashboard)
-- [Modules](./modules)
-- [Profile](./profile)
-- [Back to Guides](../index.md)
-- [Return to Home](../../index.md)
+Provides detailed analytics on student performance.
 
-## Overview
-Provides detailed analytics on student performance, average ELO, average completion time and challenge completion.
+## Features
+- View statistics on student performance per module.
+- View overview analysis such as submission percentage, average Elo, and average completion time.
+- See the module leaderboard based on elo points in a graph.
+- See the challenge attempts per challenge in a pie chart.
+- Table view of all submissions.
 
-### Features
-- Track student progress per module.
-- View Submission rates.
-- View ELO scores.
-- View Average completion time.
-- Analyze success rates by viewing the current student leaderboard and challenge progress board.
+![Lecturer Overview Dashboard](images/analytics.png)
 
-### Screenshots
-![Lecturer Analytics Dashboard](analytic.png)
+## Table Details
+- The table contains each student enrolled in the module along with their submission analytics.
+- Expanding on a student will show the time spent and the highest badge earned per challenge.
+- Students with a yellow warning icon before their student number is students at risk.
+
+![Lecturer Overview Dashboard](images/analyticsTable.png)

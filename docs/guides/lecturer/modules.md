@@ -1,20 +1,16 @@
 # Lecturer Modules
 
-## Navigation
-- [Overview Dashboard](./overview-dashboard)
-- [Analytics Dashboard](./analytics-dashboard)
-- [Uploads Dashboard](./uploads-dashboard)
-- [Profile](./profile)
-- [Back to Guides](../index.md)
-- [Return to Home](../../index.md)
+Manage modules the lecturer is assigned to.
 
-## Overview
-Lecturers can view and manage modules assigned to them.
+## Accessing the page
 
-### Features
-- View module details (code, name, semester).
-- Access course instances related to modules.
-- Quick navigation to related challenge sets and slides.
+- Go to your name in the bottom left of the navigation bar.
+- Click on **Settings**.
+- Go to the **Modules** tab.
 
-### Screenshots
-![Lecturer Modules](../../images/lecturer-modules.png)
+## Features
+- View modules the lecturer is assigned to.
+- Enroll students in a module by either uploading a csv file of manually entering the student's student number.
+- Expand a module to view all enrolled students in the module.
+
+![Lecturer Modules](images/modules.png)

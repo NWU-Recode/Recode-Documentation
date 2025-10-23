@@ -1,27 +1,17 @@
 # Student Profile
 
-## Navigation
-- [Overview Dashboard](./overview-dashboard)
-- [Analytics Dashboard](./analytics-dashboard)
-- [Coding Challenge](./coding-challenge)
-- [Modules](./modules)
-- [Back to Guides](../index.md)
-- [Return to Home](../../index.md)
+Manage student account information.
 
-## Overview
-Manage student account information and settings.
-
-### Features
+## Features
 - View and update personal details.
 - Keep track of personal stats.
-![Student Profile](stats.png)
 
-### Edit Personal Information
-- Personlize your profile by selecting a picture and entering your full name.
-![Student Profile](profile.png)
+## Edit Personal Information
 
-1. Edit your Email by typing in the field provided.
-2. Edit your Contact number by typing in the field provided.
-3. Add or edit your Bio by typing in the field provided.
-4. Click **Upload profile** to save your changes or **Reset Form** to revert changes.
+- Personalize your profile by selecting a profile picture and entering your name and personal details.
+- Click **Upload profile** to save your changes or **Reset Form** to revert changes.
+
+![Student Profile](images/profile.png)
+
+
 

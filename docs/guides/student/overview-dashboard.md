@@ -1,19 +1,21 @@
- Student Overview Dashboard
+# Student Overview Dashboard
 
-## Navigation
-- [Analytics Dashboard](./analytics-dashboard)
-- [Coding Challenge](./coding-challenge)
-- [Modules](./modules)
-- [Profile Settings](./profile)
-- [Back to Guides](../index.md)
-- [Return to Home](../../index.md)
+This is the starting point for coding challenges.
 
-## Overview
-Displays weekly challenge sets, badge progress, ELO score, and set completion.
+## Cards
+- Displays weekly challenges, progress and results for the challenges in the current semester.
+- Get info such as the name of the challenge, the progress of the challenge, the week of the challenge and the status.
 
-### Features
-- Table displaying information about modules, challenges available and completion progress.
-- Access challenge attempts and results.
+![Student Overview Dashboard](images/overviewCards.png)
 
-### Screenshots
-![Student Overview Dashboard](overview.png)
+## Table
+- The table is located at the bottom of the page.
+- Displaying information about the challenges per module.
+- Progress bar displaying the progress of the module.
+- Start and end dates of each challenge.
+
+![Student Overview Dashboard](images/overviewTable.png)
+
+## Coding Challenge Steps
+- Click on the challenge card to view the challenge.
+- Click on the table row to view the challenge.

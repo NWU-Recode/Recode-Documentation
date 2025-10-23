@@ -1,10 +1,7 @@
 # GitHub Copilot Engineering Notes for Recode Backend
 
-[⬅ Back to Home](/)
-
 These instructions define how GitHub Copilot (and new devs) should contribute code to the **Recode** project, matching Brandon’s expectations and architecture decisions. It reflects your backend philosophy, tech stack, structure, and standard engineering practices for fast, secure, MVP-first development.
 
----
 
 ## Project Architecture Summary
 
@@ -16,8 +13,6 @@ These instructions define how GitHub Copilot (and new devs) should contribute co
 - **Frontend**: React (or Vue), Tailwind, API-driven only
 - **Async** (later): Redis + Celery
 - **Hosting**: Railway/Render (backend), Supabase (DB/Auth), Vercel (frontend)
-
----
 
 ## Folder Structure Overview
 
@@ -33,8 +28,6 @@ app/
 ├── utils/                 # Helper utilities (tokens, hashing, etc)
 └── main.py                # App entry point
 ```
-
----
 
 ## Copilot Coding Rules & Engineering Patterns
 
@@ -82,8 +75,6 @@ def get_challenge(id: UUID):
     return challenge_service.get_by_id(id)
 ```
 
----
-
 ## 🔐 Authentication & Authorization
 
 - **Supabase Auth** is used. JWT is passed from frontend via cookie.
@@ -97,8 +88,6 @@ def get_profile(user = Depends(get_current_user)):
 ```
 
 - Use `user.role` (e.g. `"lecturer"`, `"student"`) to **authorize** actions in service layer.
-
----
 
 ## Feature Engineering Conventions
 
@@ -126,8 +115,6 @@ def get_profile(user = Depends(get_current_user)):
 - Generate topics in `services/nlp.py`
 - Store in `nlp_generated_topic` table
 
----
-
 ## Optimization & Scaling Notes
 
 - Use FastAPI’s built-in async where possible
@@ -136,15 +123,11 @@ def get_profile(user = Depends(get_current_user)):
 - Use Redis + dead-letter queues for background retries
 - Avoid repeated queries: use `.options(joinedload(...))` for joins
 
----
-
 ## API Testing Tips
 
 - Use Swagger UI at `/docs`
 - Use Postman or ThunderClient with cookies
 - All requests: `credentials: 'include'`
-
----
 
 ## Error Handling
 
@@ -152,15 +135,11 @@ def get_profile(user = Depends(get_current_user)):
 - Catch and wrap Judge0 errors
 - In Celery jobs: use retries and task log table
 
----
-
 ## Security Rules
 
 - Never send Supabase service role key to frontend
 - All user data filtered by role and user ID
 - Enforce ownership checks in `services/`
-
----
 
 ## Dev Flow
 
@@ -168,8 +147,6 @@ def get_profile(user = Depends(get_current_user)):
 - `main` branch = protected
 - Add migrations per model change
 - Write `.env.sample` for shared setup
-
----
 
 ## Remember
 
@@ -179,12 +156,8 @@ def get_profile(user = Depends(get_current_user)):
 - Routes = dumb wrappers
 - Frontend = gets clean data, never talks to Supabase directly
 
----
-
 Want examples? Check `/app/services/scoring.py` or `/schemas/badge.py`.
 Keep backend dumb but smart where it counts.
-
----
 
 > 🧠 Recode’s goal is a clean, scalable backend that feels like an API brain — reliable, predictable, and modular. Copilot should generate code **that respects the stack, avoids shortcuts**, and fits the structure above.
 
